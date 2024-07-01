@@ -1,0 +1,20 @@
+/* 确保HTML和body占满整个页面 */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/* 确保root元素也占满整个页面 */
+#root {
+  height: 100%;
+}
+
+/* 设置根组件的样式 */
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: lightblue;
+}
