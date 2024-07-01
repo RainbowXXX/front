@@ -15,7 +15,7 @@ const PieView = ({width, height, data, dataName}: { width: number; height: numbe
             cx={200}
             cy={200}
             labelLine={false}
-            label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}`}
+            label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)} %`}
             outerRadius={120}
             fill="#8884d8"
             dataKey={dataName}

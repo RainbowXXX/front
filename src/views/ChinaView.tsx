@@ -31,13 +31,13 @@ const city_province_mapping = {
 }
 
 function App() {
-    const [value, setValue] = useState(0);
     const [data, setData] = useState(initData);
 
     const minStr = '2024-06-23 19:23:15'
     const maxStr = '2024-06-30 21:30:51'
     const min_time = 1719141795*1000
     const max_time = 1719754251*1000
+    const [value, setValue] = useState(max_time);
 
     useEffect(()=> {
         const postData = async () => {
